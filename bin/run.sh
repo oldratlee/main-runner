@@ -21,4 +21,12 @@ chmod +x $BASE -R
 main_class=$1
 shift 1
 
-$JAVA_HOME/bin/java $JAVA_OPTS -cp $CLASS_PATH "$main_class" "$@"
+echo_and_run() {
+    echo ===================================
+    echo Start run command: 
+    echo "$@"
+    echo ===================================
+    "$@"
+}
+
+echo_and_run $JAVA_HOME/bin/java $JAVA_OPTS -cp $CLASS_PATH "$main_class" "$@"

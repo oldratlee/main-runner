@@ -6,7 +6,7 @@
 	<groupId>com.oldratlee.runner</groupId>
 	<artifactId>main.runner</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>foo.toolkit</name>
+	<name>${artifactId}</name>
 
 	<properties>
 	</properties>
