@@ -43,7 +43,5 @@ mvn install
 使用`run.sh`脚本来运行，这个参数是要运行的类，后面运行参数。
 
 ```bash
-./run.sh com.foo.Main arg1 arg2
+./run.sh com.oldratlee.runner.Main arg1 arg2
 ```
-
-

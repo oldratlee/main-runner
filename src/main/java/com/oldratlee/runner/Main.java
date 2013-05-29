@@ -11,7 +11,13 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         logger.info("Hello World!");
+
         System.out.println(Main.class.getName() + " run!");
+        for (int i = 0; i < args.length; i++) {
+            String arg = args[i];
+            System.out.println("argument " + i + ": " + arg);
+        }
+
         logger.info("Bye!");
     }
 }
