@@ -73,7 +73,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<finalName>${project.artifactId}</finalName>
+					<finalName>all-in-one</finalName>
 					<appendAssemblyId>false</appendAssemblyId>
 					<attach>true</attach>
 				</configuration>

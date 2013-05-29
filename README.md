@@ -17,14 +17,14 @@ Main Runner
 mvn install
 ```
 
-会在target下生成打包目录，形如
+会在`target`目录下生成`all-in-one`目录，形如
 
 ```bash
 ├─bin # 运行脚本
 │      env.sh
 │      run.sh
 │
-├─conf # 配置文件，运行时会被加载到Class Path上
+├─conf # 配置文件，运行时会把这个conf目录加载到Class Path上
 │      foo.properties
 │
 └─lib # 相关的依赖
