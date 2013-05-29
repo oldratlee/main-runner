@@ -75,7 +75,7 @@
 				<configuration>
 					<finalName>all-in-one</finalName>
 					<appendAssemblyId>false</appendAssemblyId>
-					<attach>true</attach>
+					<attach>false</attach>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -83,14 +83,7 @@
 
 	<profiles>
 		<profile>
-			<id>dev</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-				<property>
-					<name>env</name>
-					<value>!release</value>
-				</property>
-			</activation>
+			<id>Profile-AllInOne</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -105,13 +98,7 @@
 			</build>
 		</profile>
 		<profile>
-			<id>release</id>
-			<activation>
-				<property>
-					<name>env</name>
-					<value>release</value>
-				</property>
-			</activation>
+			<id>Profile-AllInOne-NoDir</id>
 			<build>
 				<plugins>
 					<plugin>
