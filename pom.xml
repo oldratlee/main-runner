@@ -84,6 +84,9 @@
 	<profiles>
 		<profile>
 			<id>Profile-AllInOne</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<build>
 				<plugins>
 					<plugin>
