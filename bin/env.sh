@@ -11,6 +11,6 @@ cygwin*)
     done
     ;;
 *)
-    CLASS_PATH=$BASE/../conf:`echo $BASE/../lib/*.jar | tr " " ;`
+    CLASS_PATH=$BASE/../conf:`echo $BASE/../lib/*.jar | tr " " :`
     ;;
 esac 
